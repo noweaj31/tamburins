@@ -1,0 +1,200 @@
+@media (max-width: 768px) {
+  /* header */
+
+  .banner {
+    display: none;
+  }
+  .lnb {
+    width: 100%;
+    text-align: center;
+  }
+  nav {
+    width: 100%;
+    padding: 0 20px;
+  }
+  header.active nav {
+    padding-bottom: 30px;
+  }
+  .logo {
+    padding-top: 35px;
+  }
+  .gnb {
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.107);
+    transition: 0.3s;
+  }
+  .gnb .side-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 350px;
+  }
+  .gnb .side-menu span {
+    padding: 5px 10px;
+    font-weight: 600;
+  }
+  .gnb.active {
+    right: 0;
+  }
+  .gnb li a {
+    color: black;
+    display: block;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  /* Trigger */
+  .trigger {
+    display: block;
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+  }
+  .trigger span {
+    position: absolute;
+    background-color: #000;
+    height: 1px;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .trigger span:nth-child(1) {
+    top: 0;
+  }
+  .trigger span:nth-child(2) {
+    top: 50%;
+  }
+  .trigger span:nth-child(3) {
+    top: 100%;
+  }
+
+  .trigger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  .trigger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .trigger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  /* common css */
+  .inner {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  /* intro */
+  .intro .heading h1 {
+    font-size: 40px;
+  }
+  .intro .heading p {
+    padding: 0;
+  }
+  /* about section */
+  .about-content {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .about-content div {
+    padding: 10px;
+  }
+  /* ranking section */
+  .ranking-content {
+    padding: 50px 0;
+  }
+  .items {
+    flex-direction: column;
+  }
+  .item {
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 25px;
+  }
+  .item:nth-of-type(2) {
+    padding-bottom: 45px;
+  }
+  /* gift section */
+  .gift-wrap {
+    padding: 50px 0;
+  }
+  .client {
+    padding-left: 20px;
+  }
+  .testimonial 
+  /* callaction section */
+  .new-wrap-heading h2 {
+    font-size: 30px;
+  }
+  .new-wrap-heading {
+    padding: 0 10px;
+  }
+  /* store section */
+  .store {
+    padding: 50px 0;
+  }
+  .post-content {
+    flex-direction: column;
+  }
+  .post-item {
+    flex-direction: column;
+  }
+  .post-item:nth-of-type(3) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+  }
+  .post-image {
+    border-radius: 7px;
+    width: 100%;
+  }
+  .shared-post-items {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .shared-post-items .post-item:nth-of-type(1) {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+  }
+  .shared-post-items .post-item:nth-of-type(2) {
+    padding-top: 30px;
+  }
+  .post-desc {
+    padding: 0;
+  }
+  .post-desc h3 {
+    margin-top: 15px;
+  }
+  .store-header h2 {
+    font-size: 36px;
+  }
+  .store-header p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .store-header {
+    text-align: center;
+  }
+
+  /* footer */
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-content ul {
+    margin-bottom: 25px;
+  }
+}

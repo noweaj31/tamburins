@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../Downloads/섹션 5. 플렉스(Flex) 실전 반응형 웹사이트 제작/images"
+		},
+		{
+			"name": "website",
+			"path": "website"
+		},
+		{
+			"name": "Montserrat",
+			"path": "../Downloads/[PSD]플렉스(Flex)+반응형+웹사이트(The+World’s+Best+Cities)/사용폰트/Montserrat"
+		},
+		{
+			"path": "../Downloads/slick-1.8.1/slick"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "website"
+	}
+}
